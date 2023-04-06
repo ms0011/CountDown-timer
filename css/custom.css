@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&family=Poppins:wght@700&display=swap');
+.main{
+    width: 100%; 
+    height: 100vh;
+    background: url('../image/ime.jpg') center center; 
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tittle{
+    margin-top: 10px;
+    color: white;
+    font-size: 2.5rem;
+    
+
+}
+.col{
+    width: 1000px;
+    
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    width: 60%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .8);
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
